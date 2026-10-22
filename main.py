@@ -11,7 +11,7 @@ import dotenv
 
 dotenv.load_dotenv()
 
-# The 20 diagnostic conditions in your exact Excel sheet sequence
+# The 20 diagnostic conditions in exact Excel sheet sequence
 CONDITIONS = [
     "perihilar_infiltrate", "pneumonia", "bronchitis", "interstitial", "diseased_lungs",
     "hypo_plastic_trachea", "cardiomegaly", "pulmonary_nodules", "pleural_effusion", "rtm",
@@ -183,7 +183,7 @@ def main():
     create_confusion_matrix(production_batch, CONDITIONS, output_matrix_name)
     print(f"Confusion matrix has been created and saved as '{output_matrix_name}'.")
 
-    # 4. Trigger OpenAI professional notification summary statement
+    # 4. Trigger OpenAI notification summary statement
     try:
         response = openai_client.chat.completions.create(
             model="gpt-4o-mini",
