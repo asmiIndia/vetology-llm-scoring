@@ -53,6 +53,6 @@ for the completed 100-case local Ollama run.
 - [`prompts.json`](./prompts.json) contains the runtime condition prompts.
 - [`prompts.md`](./prompts.md) describes the prompt rules and evaluation.
 - [`prompt_changelog.md`](./prompt_changelog.md) records prompt changes.
-- [`PROJECT_ROADMAP.md`](./PROJECT_ROADMAP.md) tracks the project plan.
+
 
 
